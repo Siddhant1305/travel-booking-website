@@ -3,40 +3,54 @@
     <div class="col-8 offset-2">
 
     <h3>Create a New Listing</h3>
-    <form method="POST" action="/listings">
-        
+    <form method="POST" action="/listings" class="needs-validation" novalidate>
+        <!-- Title -->
         <div class="mb-3">
             <label for="title" class="form-label">Title</label>
-            <input name="listing[title]" placeholder="Enter Title" type="text" class="form-control" />
+            <input name="listing[title]" placeholder="Enter Title" type="text" class="form-control" required />
         </div>
-
+        <!-- Description -->
         <div class="mb-3">
             <label for="description" class="form-label">Description</label>
-            <textarea name="listing[description]" placeholder="Enter Description" class="form-control"></textarea>
+            <textarea name="listing[description]" placeholder="Enter Description" class="form-control" required></textarea>
         </div>
-        
+        <!-- Image URL -->
         <div class="mb-3">
             <label for="image" class="form-label">Image URL/Link</label>
             <input name="listing[image]" placeholder="Enter Image URL/Link" class="form-control" />
         </div>
-        
+        <!-- Price and Country -->
         <div class="row">
+            <!-- Price -->
             <div class="mb-3 col-4">
                 <label for="price" class="form-label">Price</label>
-                <input name="listing[price]" placeholder="Enter Price" type="number" class="form-control" />
+                <input name="listing[price]" placeholder="Enter Price" type="number" class="form-control" required />
             </div>
-            
+            <!-- Country -->
             <div class="mb-3 col-8">
                 <label for="country" class="form-label">Country</label>
-                <input name="listing[country]" placeholder="Enter Country" type="text" class="form-control" />
+                <input name="listing[country]" placeholder="Enter Country" type="text" class="form-control" required />
             </div>
         </div>
-        
+        <!-- Location -->
         <div class="mb-3">
             <label for="location" class="form-label">Location</label>
-            <input name="listing[location]" placeholder="Enter Location" type="text" class="form-control" />
+            <input name="listing[location]" placeholder="Enter Location" type="text" class="form-control" required />
+        </div>
+        <!-- Terms and Condition Form Check -->
+        <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+              <label class="form-check-label" for="invalidCheck">
+                Agree to terms and conditions
+              </label>
+              <div class="invalid-feedback">
+                You must agree before submitting.
+              </div>
+            </div>
         </div>
         <br>
+        <!-- Add Listing Button -->
         <button class="btn btn-dark add-btn mt-3">Add</button>
         <br><br>
     </form>
