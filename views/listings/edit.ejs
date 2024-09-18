@@ -4,50 +4,56 @@
 
     <h3>Edit your Listing</h3>
     <form method="POST" action="/listings/<%= listing._id %>?_method=PUT">
-
+      <!-- Title -->
       <div class="mb-3">
         <label for="title" class="form-label">Title</label>
-        <input name="listing[title]" value="<%= listing.title %>" type="text" class="form-control" />
+        <input name="listing[title]" value="<%= listing.title %>" type="text" class="form-control" required/>
       </div>
-      
+      <!-- Description -->
       <div class="mb-3">
         <label for="description" class="form-label">Description</label>
-        <textarea name="listing[description]" class="form-control"><%= listing.description %></textarea>
+        <textarea name="listing[description]" class="form-control" required><%= listing.description %></textarea>
       </div>
-      
+      <!-- Image URL -->
       <div class="mb-3">
         <label for="image" class="form-label">Image URL/Link</label>
-        <input name="listing[image]" value="<%= listing.image %>" type="text" class="form-control"/>
+        <input name="listing[image]" value="<%= listing.image %>" type="text" class="form-control" />
       </div>
-      
+      <!-- Price and Country -->
       <div class="row">
+        <!-- Price -->
         <div class="mb-3 col-md-4">
           <label for="price" class="form-label">Price</label>
-          <input name="listing[price]" value="<%= listing.price %>" type="number" class="form-control" />
+          <input name="listing[price]" value="<%= listing.price %>" type="number" class="form-control" required />
         </div>
-        
+        <!-- Country -->
         <div class="mb-3 col-md-8">
           <label for="country" class="form-label">Country</label>
-          <input
-          name="listing[country]"
-          value="<%= listing.country %>"
-          type="text"
-          class="form-control" />
+          <input name="listing[country]" value="<%= listing.country %>" type="text" class="form-control" required />
         </div>
       </div>
-      
+      <!-- Location -->
       <div class="mb-3">
         <label for="location" class="form-label">Location</label>
-        <input
-        name="listing[location]"
-        value="<%= listing.location %>"
-        type="text"
-        class="form-control"
-      />
+        <input name="listing[location]" value="<%= listing.location %>" type="text" class="form-control" required />
       </div>
-
+      <!-- Terms and Condition Form Check -->
+      <div class="col-12">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+          <label class="form-check-label" for="invalidCheck">
+            Agree to terms and conditions
+          </label>
+          <div class="invalid-feedback">
+            You must agree before submitting.
+          </div>
+        </div>
+    </div>
+    <!-- Edit Listing Button -->
+      <br>
       <button class="btn btn-dark edit-btn mt-3">Edit</button>
       <br><br>
     </form>
   </div>
 </div>
+<script src="/js/script.js"></script>
