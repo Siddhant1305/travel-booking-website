@@ -5,11 +5,25 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <!-- Home, Listings and New Listings Addition -->
         <div class="navbar-nav">
           <a class="nav-link" href="/">Home</a>
           <a class="nav-link" href="/listings">All Listings</a>
           <a class="nav-link" href="/listings/new">Add New Listings</a>
         </div>
+
+        <!-- Signup, Login and Logout -->
+        <div class="navbar-nav ms-auto">
+          <% if(!currUser) { %>
+          <a class="nav-link" href="/signup">Sign Up</a>
+          <a class="nav-link" href="/login">Log In</a>
+          <% } %> 
+          
+          <% if(currUser) { %>
+          <a class="nav-link" href="/logout">Log Out</a>
+          <% } %>
+        </div>
+
       </div>
     </div>
 </nav>
