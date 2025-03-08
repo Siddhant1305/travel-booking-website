@@ -7,35 +7,35 @@ The Travel Booking Platform is a full-stack web application that enables users t
 
 **✨ Features:**
 **•	**User Authentication:**** Secure login and signup with JWT authentication.
+
 •	**Travel Booking:** Users can browse and book trips easily.
+
 **•	Review & Rating System:** Users can leave reviews and ratings for booked experiences.
+
 **•	Error Handling:** Integrated robust error handling for a seamless experience.
+
 **•	Mobile-Responsive Design:** Optimized UI/UX for desktop and mobile devices.
+
 **•	Secure Data Storage:** Utilizes MongoDB to securely store user and booking details.
+
 **•	Scalable Architecture:** Built with scalability in mind using RESTful APIs.
+
 **•	Cloud Integration:** AWS services for hosting and storage.
 
 **🛠️ Tech Stack:**
 **•	Frontend:** React.js, HTML, CSS, JavaScript
-**•	Backend:** Node.js, Express.js
-**•	Database:** MongoDB
-**•	Cloud Services:** AWS (EC2, S3, etc.)
 
-**📂 Project Structure:**
-**travel-booking-platform/**
-│-- client/         # Frontend React app
-│-- server/         # Backend Node.js & Express app
-│-- models/         # Database models
-│-- routes/         # API routes
-│-- controllers/    # Business logic
-│-- middleware/     # Authentication & error handling
-│-- config/         # Configuration files
-│-- public/         # Static assets
-│-- .env            # Environment variables
-│-- README.md       # Documentation
+**•	Backend:** Node.js, Express.js
+
+**•	Database:** MongoDB
+
+**•	Cloud Services:** AWS (EC2, S3, etc.)
 
 **🔥 Future Enhancements**
 **•	Payment Gateway:** Integrate Stripe/PayPal for seamless transactions.
+
 **•	Google Maps API:** Enable location-based search and travel recommendations.
+
 **•	Real-time Chat Support:** Allow users to communicate with travel agents.
+
 **•	Multi-language Support:** Provide translations for global accessibility.
