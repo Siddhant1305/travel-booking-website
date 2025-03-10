@@ -43,3 +43,9 @@ The Travel Booking Platform is a full-stack web application that enables users t
 **•	Real-time Chat Support:** Allow users to communicate with travel agents.
 
 **•	Multi-language Support:** Provide translations for global accessibility.
+
+
+![wandurlust1](https://github.com/user-attachments/assets/e171cef8-3922-4d9f-a708-8a0974a556b3)
+![wanderlust2](https://github.com/user-attachments/assets/5ec6ab8b-1f24-46a7-adb4-be17d305f642)
+![wanderlust3](https://github.com/user-attachments/assets/c4401684-60a4-4ae0-95b7-bc7ccd21ce66)
+![wanderlust4](https://github.com/user-attachments/assets/c32ffb0d-7aee-4c14-afd9-fb81da784a9d)
