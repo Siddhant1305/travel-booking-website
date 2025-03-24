@@ -24,7 +24,7 @@ The Travel Booking Platform is a full-stack web application that enables users t
 
 **•	Cloud Integration:** AWS services for hosting and storage.
 
-#**_🛠️ Tech Stack:_**
+# **_🛠️ Tech Stack:_**
 
 **•	Frontend:** React.js, HTML, CSS, JavaScript
 
@@ -34,7 +34,7 @@ The Travel Booking Platform is a full-stack web application that enables users t
 
 **•	Cloud Services:** AWS (EC2, S3, etc.)
 
-#**_🔥 Future Enhancements_**
+# **_🔥 Future Enhancements_**
 
 **•	Payment Gateway:** Integrate Stripe/PayPal for seamless transactions.
 
