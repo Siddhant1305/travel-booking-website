@@ -1,4 +1,4 @@
-# **🌍 Travel Booking Platform**
+# **🌍 Travel Booking Platform - Wanderlust**
 
 # **_🚀 Overview:_**
 
