@@ -1,12 +1,12 @@
 # **🌍 Travel Booking Platform**
 
-**🚀 Overview:**
+# **_🚀 Overview:_**
 
 The Travel Booking Platform is a full-stack web application that enables users to search, book, and review travel experiences seamlessly. This project is designed with modern technologies to provide a smooth, user-friendly, and secure booking system. The platform supports user authentication, a comprehensive error-handling mechanism, and a review system to enhance user experience.
 
 **•	URL:** https://travel-wanderlust-673u.onrender.com/listings
 
-**✨ Features:**
+# **_✨ Features:_**
 
 **•	**User Authentication:**** Secure login and signup with JWT authentication.
 
@@ -24,7 +24,7 @@ The Travel Booking Platform is a full-stack web application that enables users t
 
 **•	Cloud Integration:** AWS services for hosting and storage.
 
-**🛠️ Tech Stack:**
+#**_🛠️ Tech Stack:_**
 
 **•	Frontend:** React.js, HTML, CSS, JavaScript
 
@@ -34,7 +34,7 @@ The Travel Booking Platform is a full-stack web application that enables users t
 
 **•	Cloud Services:** AWS (EC2, S3, etc.)
 
-**🔥 Future Enhancements**
+#**_🔥 Future Enhancements_**
 
 **•	Payment Gateway:** Integrate Stripe/PayPal for seamless transactions.
 
