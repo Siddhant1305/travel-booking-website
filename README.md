@@ -26,7 +26,7 @@ The Travel Booking Platform is a full-stack web application that enables users t
 
 # **_🛠️ Tech Stack:_**
 
-**•	Frontend:** React.js, HTML, CSS, JavaScript
+**•	Frontend:** React.js, HTML, CSS, JavaScript(JS)
 
 **•	Backend:** Node.js, Express.js
 
